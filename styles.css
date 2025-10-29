@@ -70,6 +70,10 @@ header nav button:hover {
     transition: transform 0.2s;
 }
 
+.card > * {
+    background: #0000b3;
+}
+
 .card:hover {
     transform: scale(1.05);
 }
@@ -86,7 +90,7 @@ h2 {
 }
 
 /* Button styling */
-button {
+.card > button {
     background: #007BFF;
 
     border: none;
@@ -97,4 +101,16 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+#vision > * {
+background: #0000b3;
+}
+
+#vision > h2 {
+text-align: center;
+}
+
+#vision {
+background: #0000b3;
 }
